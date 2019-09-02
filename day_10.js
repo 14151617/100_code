@@ -1,0 +1,12 @@
+var oldDate=new Date(2016,0,5);
+document.write(oldDate);
+document.write("<br>");
+var dateToday = new Date();
+document.write(dateToday);
+document.write("<br>");
+var oldDateWithTime = new Date();
+ oldDateWithTime.getMonth();
+document.write(oldDateWithTime.getMonth());
+document.write("<br>");
+oldDateWithTime.getDay() ;
+document.write(oldDateWithTime.getDay());
